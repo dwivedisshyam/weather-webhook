@@ -47,7 +47,7 @@ def processRequest(req):
     fahrenheit_result=w.get_temperature('fahrenheit')
     temp_min_fahrenheit=str(fahrenheit_result.get('temp_min'))
     temp_max_fahrenheit=str(fahrenheit_result.get('temp_max'))
-    speech = "The current weather condition in " + city + " is haze and the temperature is 21 Celsius"
+    speech = "The current weather condition in " + city + " is haze and the temperature is "+temp_max_celsius+" Celsius"
 
     
     return {
