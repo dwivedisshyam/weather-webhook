@@ -1,0 +1,14 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = "*"
+pyowm = "==2.8.0"
+gunicorn = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.7"

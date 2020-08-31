@@ -1,1 +1,1 @@
-web: python weather.py
+web: gunicorn wsgi:app
